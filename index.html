@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--========== FONTAWESOME ==========-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--========== JQUERY MODAL ==========-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+        <title>Say Hi to Speeky!</title>
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">
+                    <img class="nav__logo" src="assets/img/speeky1.png" alt="logo" style="height: 30px; width: 105px;">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+                        <li class="nav__item"><a href="#" class="nav__login"><b>Login</b></a></li>
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Solusi Terbaik Bimbingan dan Konseling Siswa</h1>
+                        <p class="home__subtitle">Siswa butuh ruang aman dan nyaman untuk bercerita? Speeky hadir sebagai wadah untuk menghubungkan siswa dengan Guru BK secara online. <br> <b>Speeky? Don’t worry let’s speak!</b></p>
+                        <a href="#" class="button"><b>Download App</b></a>
+                    </div>
+    
+                    <img src="assets/img/home2.svg" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--========== Partnership ==========-->
+            <section class="services section bd-container">
+                <h2 class="section-title">Pihak yang terkait</h2>
+                <div class="logos">
+                    <div class="logos-slide">
+                        <img src="assets/img/logo-smp1.png" alt="logo-smp">
+                        <img src="assets/img/poliwangi.png" alt="logo-poliwangi">
+                        <img src="assets/img/jagoandigital.png" alt="logo-jd">
+                        <img src="assets/img/jagoanbwi.png" alt="logo-jb">
+                        <img src="assets/img/jagoanindonesia.png" alt="logo-ji">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== FEATURES ==========-->
+            <section class="services section bd-container" id="features">
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5 2C13.5 2.44425 13.3069 2.84339 13 3.11805V5H18C19.6569 5 21 6.34315 21 8V18C21 19.6569 19.6569 21 18 21H6C4.34315 21 3 19.6569 3 18V8C3 6.34315 4.34315 5 6 5H11V3.11805C10.6931 2.84339 10.5 2.44425 10.5 2C10.5 1.17157 11.1716 0.5 12 0.5C12.8284 0.5 13.5 1.17157 13.5 2ZM0 10H2V16H0V10ZM24 10H22V16H24V10ZM9 14.5C9.82843 14.5 10.5 13.8284 10.5 13C10.5 12.1716 9.82843 11.5 9 11.5C8.17157 11.5 7.5 12.1716 7.5 13C7.5 13.8284 8.17157 14.5 9 14.5ZM16.5 13C16.5 12.1716 15.8284 11.5 15 11.5C14.1716 11.5 13.5 12.1716 13.5 13C13.5 13.8284 14.1716 14.5 15 14.5C15.8284 14.5 16.5 13.8284 16.5 13Z"></path></svg>
+                        <h3 class="services__title">Terintegrasi Teknologi Artificial Intelligence</h3>
+                        <p class="services__description">Meringkas chatting konsultasi antara siswa dan guru BK menggunakan teknologi AI</p>
+                    </div>
+
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.45455 19L2 22.5V4C2 3.44772 2.44772 3 3 3H21C21.5523 3 22 3.44772 22 4V18C22 18.5523 21.5523 19 21 19H6.45455ZM7 10V12H9V10H7ZM11 10V12H13V10H11ZM15 10V12H17V10H15Z"></path></svg>
+                        <h3 class="services__title">Live Chatting & Video Call dengan Guru BK</h3>
+                        <p class="services__description">Menghubungkan siswa dengan Guru BK secara online</p>
+                    </div>
+
+                    <div class="services__content">
+                        <svg class="services__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 2L21 7V21.0082C21 21.556 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5447 3 21.0082V2.9918C3 2.44405 3.44495 2 3.9934 2H16ZM13.529 14.4464L15.7395 16.6569L17.1537 15.2426L14.9432 13.0322C15.8492 11.4983 15.6432 9.48951 14.3252 8.17157C12.7631 6.60948 10.2305 6.60948 8.66839 8.17157C7.1063 9.73367 7.1063 12.2663 8.66839 13.8284C9.98633 15.1464 11.9951 15.3524 13.529 14.4464ZM12.911 12.4142C12.13 13.1953 10.8637 13.1953 10.0826 12.4142C9.30156 11.6332 9.30156 10.3668 10.0826 9.58579C10.8637 8.80474 12.13 8.80474 12.911 9.58579C13.6921 10.3668 13.6921 11.6332 12.911 12.4142Z"></path></svg>
+                        <h3 class="services__title">Tracking Riwayat Konsultasi Siswa</h3>
+                        <p class="services__description">Pengelolaan data konsultasi siswa melalui sistem yang terkomputerisasi</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <h2 class="section-title about__initial">Berperan dalam dunia pendidikan Bimbingan dan Konseling</h2>
+                        <p class="about__description">Dalam era digital yang terus berkembang, Speeky hadir membuka pintu untuk solusi bimbingan dan konseling yang lebih terjangkau, mudah diakses, dan efektif.</p>
+                    </div>
+                    <img src="assets/img/about1.png" alt="" class="about__img" style="width: 378px;">
+                </div>
+                <br>
+                <div class="about__container bd-grid">
+                    <div class="about__data">
+                        <h2 class="section-title about__initial">Menghubungkan Siswa dengan Guru Bimbingan dan Konseling</h2>
+                        <p class="about__description">Speeky memungkinkan siswa untuk mendapatkan bimbingan dan konseling tanpa harus pergi ke ruang BK. Hal ini membuat bimbingan dan konseling lebih terjangkau, mudah diakses, dan menjaga privasi siswa.</p>
+                    </div>
+
+                    <img src="assets/img/about2.png" alt="" class="about__img-right" style="width: 378px; justify-self: center;">
+                </div>
+            </section>
+
+            <!--===== APP =======-->
+            <section class="app section bd-container">
+                <div class="app__container bd-grid">
+                    <div class="app__data">
+                        <h2 class="section-title app__initial">Speeky kini hadir</h2>
+                        <p class="app__description">Kini anda dapat menemukan dan mengunduh aplikasi Speeky di toko aplikasi favorit anda.</p>
+                        <div class="app__stores">
+                            <a href="#ex1" rel="modal:open"><img src="assets/img/app1.png" alt="" class="app__store"></a>
+                            <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
+                        </div>
+                    </div>
+                    <div id="ex1" class="modal">
+                        <p>Maaf, aplikasi speeky saat ini masih dalam tahap pengembangan untuk sistem operasi iOS</p>
+                    </div>
+
+                    <img src="assets/img/mockup.png" alt="" class="app__img">
+                </div>
+            </section>
+
+            <!--========== Testimonial ==========-->
+            <section class="testimoni section bd-container">
+                <h2 class="section-title">Apa kata mereka?</h2>
+                <div class="about__container bd-grid">
+                    <div class="container">
+                        <div class="main-div">
+                            <div class="img-container">
+                                <img src="assets/img/about1.png" id="img" alt="">
+                            </div>
+                            <div class="main-content">
+                                <h2 class="author" id="author">CodeWithHarry</h2>
+                                <p class="job" id="job">Programmer</p>
+                                <p class="text" id="text">Harry is also known as CodeWithHarry on youtube. He has a hude subscribers
+                                    youtube channel. He had done his study in B.Tech Computer Science.</p>
+                                <div class="btnContainer">
+                                    <i id="prev-btn" class="fa-solid fa-angle-left"></i>
+                                    <i id="next-btn" class="fa-solid fa-angle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <img src="assets/img/testimoni.png" alt="" class="about__img" style="width: 378px;">
+                </div>
+                
+            </section>
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <h2 class="section-title contact__initial">Kontak Kami</h2>
+                        <p class="contact__description">Jika anda ingin menjadi bagian dari kami anda dapat menghubungi kami melalui tombol berwarna kuning di samping ini.</p>
+                    </div>
+
+                    <div class="contact__button">
+                        <a href="#" class="button">Hubungi Kami</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="" class="footer__logo">
+                        <img src="assets/img/speeky1.png" alt="" style="height: 30px; width: 105px;">
+                    </a>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Sitemaps</h3>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#features" class="footer__link">Features</a></li>
+                        <li><a href="about.html" class="footer__link">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Event</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Address</h3>
+                    <ul>
+                        <li>Lima - Peru</li>
+                        <li>Jr Union #999</li>
+                        <li>999 - 888 - 777</li>
+                        <li>tastyfood@email.com</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">Speeky.id | Don’t Worry Let’s Speak!</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+
+        <!--========== JQUERY MODAL ==========-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    </body>
+</html>
